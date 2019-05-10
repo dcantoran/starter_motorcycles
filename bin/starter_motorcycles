@@ -1,5 +1,6 @@
-#!usr/bin/env ruby
+#!/usr/bin/env ruby
 
-require "../lib/starter_motorcycles.rb"
+require "./lib/starter_motorcycles.rb"
+require "pry"
 
 StarterMotorcycles::CLI.new.call
